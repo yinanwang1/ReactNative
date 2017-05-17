@@ -61,3 +61,15 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+ios/ReactNative.xcodeproj/xcuserdata/*
+ios/ReactNative.xcodeproj/project.xcworkspace/xcuserdata/*
+ios/ReactNative.xcodeproj/project.xcworkspace/xcshareddata/*
+ios/ReactNative.xcworkspace/xcuserdata/*
+ios/ReactNative.xcworkspace/xcshareddata/*
+ios/Pods/Pods.xcodeproj/xcuserdata/*
+ios/build/*
+ios/Pods/Pods.xcodeproj/xcuserdata/*
+ios/Pods/*
+ios/Podfile.lock
+node_modules/*

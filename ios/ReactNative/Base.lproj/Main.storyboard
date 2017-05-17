@@ -31,10 +31,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2V-IH-JnD">
+                                <rect key="frame" x="144" y="240" width="87" height="30"/>
+                                <state key="normal" title="React Native"/>
+                                <connections>
+                                    <action selector="onSelectedReactNatvieBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMA-QM-tbt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="HHO-LD-zci" secondAttribute="trailing" constant="51" id="Dg1-0h-Gc9"/>
+                            <constraint firstItem="b2V-IH-JnD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ehW-dP-qEp"/>
+                            <constraint firstItem="b2V-IH-JnD" firstAttribute="top" secondItem="HHO-LD-zci" secondAttribute="bottom" constant="32" id="kPD-p7-GtD"/>
                             <constraint firstItem="HHO-LD-zci" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="reP-SW-a2i"/>
                             <constraint firstItem="HHO-LD-zci" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="ub4-vp-wVN"/>
                         </constraints>
